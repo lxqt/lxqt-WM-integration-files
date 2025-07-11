@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=KWin Monitor Settings
+Comment=Kwin Monitor settings
+TryExec=systemsettings
+Exec=kcmshell6 kscreen --caption "Kwin Monitor Settings"
+Icon=monitor
+Terminal=false
+Type=Application
+Categories=Qt;Settings;
+StartupNotify=true
+OnlyShowIn=LXQt;

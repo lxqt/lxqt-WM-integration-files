@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=KWin Input Settings
+Comment=Keyboard, mouse, touchpad and other input settings for Kwin Wayland
+TryExec=systemsettings
+Exec=kcmshell6 mouse --caption "KWin Wayland Input Settings" keyboard mouse touchpad touchscreen kwintouchscreen
+Icon=mouse
+Terminal=false
+Type=Application
+Categories=Qt;Settings;
+StartupNotify=true
+OnlyShowIn=LXQt;
