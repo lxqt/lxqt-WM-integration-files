@@ -23,7 +23,7 @@ may be needed. See `kcmshell6 --list` for all modules available in your installa
 
 
 ```
-git clone https://github.com/lxqt/lxqt-WM-integration-files`
+git clone https://github.com/lxqt/lxqt-WM-integration-files
 cp lxqt-WM-integration-files/applications/lxqt-kcmshell6* ~/.local/share/applications/
 
 ```
@@ -35,7 +35,7 @@ One menu entry for Kwin x11 Settings.
 #### Installation
 
 ```
-git clone https://github.com/lxqt/lxqt-WM-integration-files`
+git clone https://github.com/lxqt/lxqt-WM-integration-files
 cp lxqt-WM-integration-files/applications/lxqt-kwin_x11.desktop ~/.local/share/applications/
 
 ```
