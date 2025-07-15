@@ -1,7 +1,7 @@
 [Desktop Entry]
 Version=1.0
 Name=KWin Monitor Settings
-Comment=Kwin Monitor settings
+Comment=Configure screens, positions, scaling and else for Kwin"
 TryExec=systemsettings
 Exec=kcmshell6 kscreen --caption "Kwin Monitor Settings"
 Icon=monitor

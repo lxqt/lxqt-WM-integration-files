@@ -1,0 +1,12 @@
+[Desktop Entry]
+Version=1.0
+Name=KWin X11 Settings
+Comment=Window decoration, appswitcher, window effects, virtual desktops, window rules and other kwin_x11 settings"
+TryExec=systemsettings
+Exec=kcmshell6 --caption "KWin x11 Settings" kwindecoration_x11 kwin_effects_x11 kwinrules_x11 kwin_virtualdesktops_x11 animations_x11 kwin_scripts_x11   kwinoptions_x11 kwintabbox_x11 kwintouchscreen_x11 kwinscreenedges_x11
+Icon=kwin
+Terminal=false
+Type=Application
+Categories=Qt;Settings;
+StartupNotify=true
+OnlyShowIn=LXQt;
