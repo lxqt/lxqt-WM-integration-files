@@ -6,8 +6,8 @@ Desktop files using single KConfig Modules for `kwin_wayland`, example `Kwin Way
 
 ![Kwin Wayland Settings](kwinsettings.png)
 
-**Note**: Setting the env var `QT_QUICK_CONTROLS_STYLE=org.kde.desktop` in
-"Session Settings > Advanced" is recommended. Kwin Qt5 is not supported.
+Package `systemsettings` from KDE Plasma is needed at least, for some modules `plasma-desktop `
+may be needed. See `kcmshell6 --list` for all modules available in your installation.
 
 ![Menu items for Kwin Wayland](kwin_wayland.png)
 
@@ -16,8 +16,8 @@ Desktop files using single KConfig Modules for `kwin_wayland`, example `Kwin Way
  * Monitor
  * KWin Wayland Settings
 
-Package `systemsettings` from KDE Plasma is needed at least, for some modules `plasma-desktop `
-may be needed. See `kcmshell6 --list` for all modules available in your installation.
+**Note**: Setting the env var `QT_QUICK_CONTROLS_STYLE=org.kde.desktop` in
+"Session Settings > Advanced" is recommended. Kwin Qt5 is not supported.
 
 #### Installation
 
