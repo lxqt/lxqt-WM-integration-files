@@ -1,10 +1,13 @@
 ## WM Integration Files for LXQt
 
-
-
 ### kwin_wayland
 
-Desktop files for single KConfig Modules for `kwin_wayland`.
+Desktop files using single KConfig Modules for `kwin_wayland`, example `Kwin Wayland Settings`:
+
+![Kwin Wayland Settings](kwinsettings.png)
+
+**Note**: Setting the env var `QT_QUICK_CONTROLS_STYLE=org.kde.desktop` in
+"Session Settings > Advanced" is recommended. Kwin Qt5 is not supported.
 
 ![Menu items for Kwin Wayland](kwin_wayland.png)
 
@@ -24,6 +27,19 @@ git clone https://github.com/lxqt/lxqt-WM-integration-files`
 cp lxqt-WM-integration-files/applications/lxqt-kcmshell6* ~/.local/share/applications/
 
 ```
+
+### kwin_x11
+
+One menu entry for Kwin x11 Settings.
+
+#### Installation
+
+```
+git clone https://github.com/lxqt/lxqt-WM-integration-files`
+cp lxqt-WM-integration-files/applications/lxqt-kwin_x11.desktop ~/.local/share/applications/
+
+```
+
 ### xfwm4
 
 By default the 3 menu entries to configure `xfwm4` are only shown in Xfce and have a generic

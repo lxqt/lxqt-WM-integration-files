@@ -1,9 +1,9 @@
 [Desktop Entry]
 Version=1.0
 Name=KWin Wayland Settings
-Comment=Window decoration, appswitcher, window effects, screenedges, window rules and other kwin settings"
+Comment=Window decoration, appswitcher, virtual desktops, window effects, screenedges, window rules and other kwin settings"
 TryExec=systemsettings
-Exec=kcmshell6 --caption "KWin Wayland Settings" kwindecoration kwin_effects kwinscreenedges kwin_scripts kwin_virtualdesktops kwintabbox kwinoptionsc kwinxwayland screenlocker
+Exec=kcmshell6 --caption "KWin Wayland Settings" kwindecoration kwin_effects kwinscreenedges kwin_scripts kwin_virtualdesktops kwintabbox kwinoptions kwinxwayland screenlocker
 Icon=kwin
 Terminal=false
 Type=Application
